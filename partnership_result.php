@@ -302,7 +302,7 @@ for ($i = 1; $i <= 6; $i++) {
 // ChatGPT APIを使って提案文を生成
 
 function generateRecommendationText($answers) {
-    $api_key = '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'; 
+    $api_key = ''; 
         $messages = [
         ['role' => 'system', 'content' => 'あなたは40代の女性の心理カウンセラーです。'],
         ['role' => 'user', 'content' =>
